@@ -1,14 +1,14 @@
 #include "addalarmdialog.h"
 #include "ui_addalarmdialod.h"
 
-addalarmdialod::addalarmdialod(QWidget *parent)
+addalarmdialog::addalarmdialog(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::addalarmdialod)
+    , ui(new Ui::addalarmdialog)
 {
     ui->setupUi(this);
 }
 
-addalarmdialod::~addalarmdialod()
+addalarmdialog::~addalarmdialog()
 {
     delete ui;
 }
